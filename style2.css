@@ -1,0 +1,30 @@
+h2{
+	color: blue;
+}
+
+.boxmodel{
+	border: 5px solid purple;
+	display: inline-block;
+	/*padding: top right bottom left;*/
+	/*padding-top: ;
+	padding-right: ;
+	padding-bottom: ;
+	padding-left: ;*/
+	/*margin: follow the same principle like padding(spacce inside the box)  magin is space outside the box;
+	margin: top&bottom left&right*/
+	margin: 0px 20px;
+	padding: 5px 20x;
+	width: 33Px;
+	height: 50px;
+}
+
+p{
+	font-size: 20px;
+}
+
+span{
+	font-size: 5em;
+}
+
+/*5em here is mean 5times the containing element that is 20px because span in an inline element of p
+5rem here is mean 5times the root element of the html meanning that whatever the font-size it's always gonna be 5times*/

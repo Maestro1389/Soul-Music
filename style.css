@@ -1,0 +1,64 @@
+/*selector{
+	property: value;
+}*/
+
+*{
+	text-align: right;
+}
+
+body{
+	background-image: url(Background.jpeg);
+	background-size: cover;
+}
+
+h2, p{
+	color: darkred;
+	text-align: center;
+	border: 5px solid #E0464A;
+	cursor: pointer;
+}
+
+p{
+	color: rgba(10, 10, 93, 0.8);
+	/*text-decoration: underline;*/
+	/*text-decoration: line-through;*/
+	text-transform: uppercase;
+	/*text-transform: lowercase;*/
+	line-height: 70px;
+	/*font-style: italic;*/
+	font-weight: bold;
+	font-size: 150%;
+	font-family: 'Monoton', cursive;
+}
+
+img{
+	float: right;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+.Webtext:last-child {
+	border: 5px dashed #9EA3E9;
+}
+
+.active{
+	color: #6B003D;
+}
+
+#Div1{
+	background-color: rgba(117, 110, 124, 0.4);
+}
+
+#Div2{
+	background-color: rgba(174, 20, 0, 0.4);
+}
+
+/*!important: Break the rule of Cascading Style sheet*/
